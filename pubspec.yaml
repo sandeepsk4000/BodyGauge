@@ -1,0 +1,59 @@
+name: body_gauge
+description:   Body Gauge is a health application built using Flutter and GetX state management. 
+  It helps users calculate important health metrics such as Basal Metabolic Rate (BMR), 
+  Body Mass Index (BMI), and daily calorie intake. This application aims to assist users 
+  in monitoring and managing their health by providing essential health-related calculations 
+  in an easy-to-use interface.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.6.0
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/asset/result/app_logo.png"
+  min_sdk_android: 21
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  
+    - lib/asset/result/
+
+  
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
